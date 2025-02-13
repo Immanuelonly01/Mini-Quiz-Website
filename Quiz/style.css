@@ -1,0 +1,83 @@
+body{
+    background-color: white;
+}
+#frame{
+    background-color: whitesmoke;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 40px;
+    align-content: center;
+    border: 2px solid rgb(200, 200, 200);
+    box-shadow: 10px 10px 25px rgb(47, 47, 47);
+}
+#email input , #pass input{
+    border: 1px solid whitesmoke;
+    width: 50%;
+    outline: none;
+    flex: 1;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+    box-shadow: 5px 5px 15px rgb(71, 71, 71);
+}
+#email i ,#pass i{
+    color: navy;
+    font-size: 25px;
+    padding: 5px;
+}
+#reme{
+    margin-left: 29%;
+    font-size: 12px;
+    color: gray;
+}
+#for{
+    margin-left: 19%;
+    font-size: 12px;
+}
+#si{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+#wel {
+    background-image: url(image/OIP.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh; 
+    color: white;     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin:2px;
+
+}
+#for a{
+    text-decoration: none;
+    color: gray;
+}
+#don{
+    color: gray;
+    margin-top: 10px;
+    padding: 5px;
+}
+#cre{
+    color:black ;
+    margin-top: 15px;
+    text-decoration: none;
+}
+#wel1 {
+    background-image: url(image/OIP.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:80vh; 
+    color: white;     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin:2px;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#"><i class="bi bi-chevron-double-left"></i>QuizZ</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Result</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">LeaderBoard</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="quiz" class="m-5">
+        <h1>Tech Quiz</h1>
+        <form class="ps-5 pt-4 pb-5">
+            <div class="question">1. What does CPU stand for?</div>
+            <div class="options">
+                <label><input type="radio" name="q1" value="A"> A) Central Processing Unit</label>
+                <label><input type="radio" name="q1" value="B"> B) Computer Processing Unit</label>
+                <label><input type="radio" name="q1" value="C"> C) Central Process Unit</label>
+                <label><input type="radio" name="q1" value="D"> D) Central Processor Unit</label>
+            </div>
+            
+            <div class="question">2. Which language is used for web development?</div>
+            <div class="options">
+                <label><input type="radio" name="q2" value="A"> A) Python</label>
+                <label><input type="radio" name="q2" value="B"> B) Java</label>
+                <label><input type="radio" name="q2" value="C"> C) HTML</label>
+                <label><input type="radio" name="q2" value="D"> D) C++</label>
+            </div>
+            
+            <div class="question">3. What is the main function of an Operating System?</div>
+            <div class="options">
+                <label><input type="radio" name="q3" value="A"> A) Manage hardware and software</label>
+                <label><input type="radio" name="q3" value="B"> B) Perform calculations</label>
+                <label><input type="radio" name="q3" value="C"> C) Edit documents</label>
+                <label><input type="radio" name="q3" value="D"> D) Design websites</label>
+            </div>
+            
+            <div class="question">4. What does RAM stand for?</div>
+            <div class="options">
+                <label><input type="radio" name="q4" value="A"> A) Random Access Memory</label>
+                <label><input type="radio" name="q4" value="B"> B) Read-Only Memory</label>
+                <label><input type="radio" name="q4" value="C"> C) Remote Access Memory</label>
+                <label><input type="radio" name="q4" value="D"> D) Random Assigned Memory</label>
+            </div>
+            
+            <div class="question">5. What is the full form of HTTP?</div>
+            <div class="options">
+                <label><input type="radio" name="q5" value="A"> A) HyperText Transfer Protocol</label>
+                <label><input type="radio" name="q5" value="B"> B) HighText Transfer Protocol</label>
+                <label><input type="radio" name="q5" value="C"> C) Hyper Transfer Text Protocol</label>
+                <label><input type="radio" name="q5" value="D"> D) HyperText Transmission Protocol</label>
+            </div>
+            
+            <div class="question">6. What does SQL stand for?</div>
+            <div class="options">
+                <label><input type="radio" name="q6" value="A"> A) Structured Query Language</label>
+                <label><input type="radio" name="q6" value="B"> B) Sequential Query Language</label>
+                <label><input type="radio" name="q6" value="C"> C) Simple Query Language</label>
+                <label><input type="radio" name="q6" value="D"> D) System Query Language</label>
+            </div>
+            
+            <div class="question">7. What is the primary function of a compiler?</div>
+            <div class="options">
+                <label><input type="radio" name="q7" value="A"> A) Convert code to machine language</label>
+                <label><input type="radio" name="q7" value="B"> B) Execute programs</label>
+                <label><input type="radio" name="q7" value="C"> C) Debug programs</label>
+                <label><input type="radio" name="q7" value="D"> D) Optimize performance</label>
+            </div>
+            
+            <div class="question">8. Which company developed the C programming language?</div>
+            <div class="options">
+                <label><input type="radio" name="q8" value="A"> A) Microsoft</label>
+                <label><input type="radio" name="q8" value="B"> B) Bell Labs</label>
+                <label><input type="radio" name="q8" value="C"> C) Sun Microsystems</label>
+                <label><input type="radio" name="q8" value="D"> D) IBM</label>
+            </div>
+            
+            <div class="question">9. What does CSS stand for?</div>
+            <div class="options">
+                <label><input type="radio" name="q9" value="A"> A) Computer Style Sheets</label>
+                <label><input type="radio" name="q9" value="B"> B) Cascading Style Sheets</label>
+                <label><input type="radio" name="q9" value="C"> C) Creative Style Sheets</label>
+                <label><input type="radio" name="q9" value="D"> D) Colorful Style Sheets</label>
+            </div>
+            
+            <div class="question">10. What is the default port number for HTTP?</div>
+            <div class="options">
+                <label><input type="radio" name="q10" value="A"> A) 21</label>
+                <label><input type="radio" name="q10" value="B"> B) 25</label>
+                <label><input type="radio" name="q10" value="C"> C) 80</label>
+                <label><input type="radio" name="q10" value="D"> D) 443</label>
+            </div>
+            
+            <button id="sub" type="submit" class="btn justify-content-center">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
