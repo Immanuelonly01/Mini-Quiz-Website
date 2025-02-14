@@ -15,30 +15,35 @@
             <div class="col mt-5">
                 <h1 class="text-center">Hello!</h1>
                 <p id="si" class="text-center">Sign In To Your Account</p>
-                <div class="text-center mt-5">
-                    <div id="email">
-                        <i class="bi bi-envelope-open-fill"></i>
-                        <input class="mb-5" type="email" placeholder="E-Mail">
-                    </div>
-                    <div id="pass">
-                        <i class="bi bi-key-fill"></i>
-                        <input type="password" placeholder="Password">
-                    </div>
-                    <div class="d-flex">
-                        <div id="reme" class="text-start mt-4">
-                            <input type="checkbox" id="rem"><label for="rem">Remember me</label>
-                        </div>
-                        <div id="for" class="text-end mt-4">
-                            <a href="#">Forgot Password</a>
-                        </div>
-                    </div>
-                    <a class="btn btn-primary btn-lg rounded-pill mt-4" href="quiz.html">Sign In</a>
-                    <div class="d-flex justify-content-center">
-                        <p id="don">Don't have an account?</p><a id="cre" href="create.html">Create</a>
-                    </div>
-                    
                 
-                </div>
+                <form action="quiz.html" method="post">
+                    <div class="text-center mt-5">
+                        <div id="email">
+                            <i class="bi bi-envelope-open-fill"></i>
+                            <input class="mb-5" type="email" placeholder="E-Mail" required>
+                        </div>
+                        <div id="pass">
+                            <i class="bi bi-key-fill"></i>
+                            <input type="password" placeholder="Password" required>
+                        </div>
+                        <div class="d-flex">
+                            <div id="reme" class="text-start mt-4">
+                                <input type="checkbox" id="rem"><label for="rem" aria-required="true">Remember me</label>
+                            </div>
+                            <div id="for" class="text-end mt-4">
+                                <a href="#">Forgot Password</a>
+                            </div>
+                        </div>
+                        <input type="submit" class="btn btn-primary btn-lg rounded-pill mt-5" id="sub" required>
+                        <div class="d-flex justify-content-center">
+                            <p id="don">Don't have an account?</p><a id="cre" href="create.html">Create</a>
+                        </div>
+                        
+                    
+                    </div>
+
+                </form>
+                
             </div>
             <div id="wel" class="col">
                 <h1 class="text-center p-4">Hey, Welcome Back!</h1>
